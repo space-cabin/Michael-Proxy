@@ -12,10 +12,6 @@ const serverOne = 'http://localhost:3001',
 
 app.use(cors());
 
-// app.get('/', (req, res) => (
-//   res.send('Hello World!'))
-// );
-
 app.use('/:id', express.static('public'));
 
 app.all('/description/*', (req, res) => {

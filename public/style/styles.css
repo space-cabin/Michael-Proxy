@@ -1,0 +1,13 @@
+.info {
+  display: flex;
+  margin-right: calc(23% + 19px);
+  margin-left: calc(21% + 19px);
+}
+
+.right {
+  width: 31rem;
+}
+
+.left {
+  padding-right: 6%;
+}
