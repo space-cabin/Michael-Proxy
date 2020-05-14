@@ -5,9 +5,15 @@
 }
 
 .right {
-  width: 31rem;
+  margin-top: 25px;
+  position: relative;
 }
 
 .left {
   padding-right: 6%;
+}
+
+#reservation {
+  position: sticky;
+  top: 30px;
 }
